@@ -3,7 +3,7 @@ import Hello from './Hello';
 import HelloSFC from './HelloSFC';
 import logo from './logo.svg';
 
-import './App.css';
+import './App.scss';
 
 class App extends React.Component {
   public render() {

@@ -4,8 +4,6 @@ import { getExclamationMarks } from './helpers';
 
 import styles from './hello.scss';
 
-console.log(111, styles);
-
 export default class Hello extends React.Component<IProps, object> {
   public render() {
     const { name, enthusiasmLevel = 1 } = this.props;
